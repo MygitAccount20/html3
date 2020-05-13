@@ -1,0 +1,97 @@
+*{margin:0;padding:0;outline:0;}
+body{font-family:arial; font-size:14px;line-height:18px;}
+.templete{width:960px;margin:0 auto;}
+.clear{overflow:hidden;}
+.header {
+    height: 90px;
+    background: #2fb1c1;
+}
+.header h2 {
+    text-align: center;
+    color: white;
+    padding-top: 34px;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.nav {
+ 
+    background: #97c0c5;
+}
+.nav ul {margin:0 ;padding:0;list-style:none;}
+.nav ul li {display:block;float:left;
+}
+.nav ul li a {
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 20px;
+    display: block;
+    background: #b4d4d8;
+	margin:5px;
+}
+.nav ul li a:hover{background:white;}
+.content{background:white;}
+.maincontent {
+    width: 640px;
+    background: #97CDCD;
+    float: left;
+    padding: 10px 20px;
+    margin: 15px 15px 15px 0px;
+    border: 1px solid black;
+}
+.samepost{}
+.samepost h2{
+	padding:5px;
+	border-bottom:2px solid #555555;
+	margin-bottom:5px;
+	font-weight:bold;
+}
+.samepost img {
+    width: 228px;
+    float: left;
+    background: white;
+    padding: 2px;
+    border: 1px solid #DFDFDF;
+    margin-right: 10px;
+}
+.samepost p {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: justify;
+}
+.readmore{float:right;}
+.readmore a {
+    text-decoration: none;
+    font-size: 18px;
+    background: #b94ecc;
+    padding: 3px 10px;
+    border: 2px solid #9b999d;
+    border-radius: 3px;
+    display: block;
+    color: white;
+}
+.readmore a:hover{color:tomato;}
+.sidebar {
+    width: 250px;
+    background: #d9ade0;
+    float: right;
+    margin-top: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.sidebarone h2{
+	background:#DFDFDF none repeat scroll 0 0;
+	border-bottom:2px solid #555555;
+	color:#fff;
+	margin-bottom:8px;
+	padding:10px;
+	}
+.sidebarone p{margin-bottom:10px;}
+.footer{height:80px;background:#2fb1c1;}
+.footer p {
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding-top: 26px;
+}
